@@ -2,13 +2,11 @@
 
 var PORT = process.env.PORT || 9000
 var REPL_PORT = process.env.REPL_PORT || 10000
-var REPL_HOST = process.env.REPL_PORT || '0.0.0.0'
+var REPL_HOST = process.env.REPL_HOST || '0.0.0.0'
 
 var Seneca = require('seneca')
 
 Seneca({tag: 'repl'})
-  .test('print')
-
   .listen(PORT)
 
   .use('entity')
