@@ -1,0 +1,33 @@
+{
+  "name": "nodezoo-repl",
+  "version": "1.0.0-tms-dev",
+  "description": "nodezoo-repl",
+  "main": "repl.js",
+  "keywords": [
+    "nodezoo",
+    "seneca",
+    "repl",
+    "microservice"
+  ],
+  "scripts": {
+    "test": "lab -P test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodezoo/nodezoo-repl.git"
+  },
+  "author": "Richard Rodger (http://richardrodger.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodezoo/nodezoo-repl/issues"
+  },
+  "homepage": "https://github.com/nodezoo/nodezoo-repl",
+  "dependencies": {
+    "seneca": "3.3.0",
+    "seneca-repl": "1.0.0"
+  },
+  "devDependencies": {
+    "code": "4.0.0",
+    "lab": "13.0.1"
+  }
+}
