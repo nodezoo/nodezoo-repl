@@ -1,0 +1,9 @@
+
+FROM nodezoo-repl:1
+
+CMD ["node", "/app/srv/repl-prod.js"]
+
+
+
+
+
