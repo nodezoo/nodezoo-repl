@@ -3,7 +3,7 @@
 var Seneca = require('seneca')
 
 Seneca({tag: 'repl', log:'silent', legacy:{xtransport:false}})
-  .test()
+  //.test()
   .use('monitor', {collect: true})
 
   .use('mesh', {
