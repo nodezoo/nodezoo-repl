@@ -1,16 +1,9 @@
 {
   "name": "nodezoo-repl",
-  "version": "1.0.0-tms-dev",
+  "version": "1.0.0",
   "description": "nodezoo-repl",
-  "main": "repl.js",
-  "keywords": [
-    "nodezoo",
-    "seneca",
-    "repl",
-    "microservice"
-  ],
   "scripts": {
-    "test": "lab -P test"
+    "test": "true"
   },
   "repository": {
     "type": "git",
