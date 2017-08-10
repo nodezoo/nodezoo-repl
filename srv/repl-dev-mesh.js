@@ -2,16 +2,12 @@
 
 var Seneca = require('seneca')
 
-Seneca({tag: 'repl', log:'silent', legacy:{xtransport:false}})
-  //.test()
+Seneca({tag: 'repl'})
+  .test('print')
   .use('monitor', {collect: true})
 
   .use('mesh', {
     base: true,
-    xport: 39000,
-    xhost: '127.0.0.1',
-    monitor: true,
-    xsneeze:{silent:false}
   })
 
   .use('entity')
