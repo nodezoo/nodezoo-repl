@@ -3,7 +3,7 @@
 var Seneca = require('seneca')
 
 Seneca({tag: 'repl'})
-  .test('print')
+  //.test('print')
   .use('monitor', {collect: true})
 
   .use('mesh', {
